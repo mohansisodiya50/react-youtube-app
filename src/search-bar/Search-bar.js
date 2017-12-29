@@ -25,7 +25,7 @@ class SearchBar extends Component {
         inputValue = this._inputElement.value;
         e.preventDefault();
      } else {
-        inputValue = "Latest songs";
+        inputValue = "Dog";
     }
 
     var url = 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=' + inputValue + '&key=AIzaSyC_U2Wqv8eJcSWAq5nWZdW80OfOmlKh27Y';
